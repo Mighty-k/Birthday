@@ -17,7 +17,7 @@ export default function App() {
   useEffect(() => {
     const lenis = new Lenis({
       lerp: 0.08,
-      touchInertiaMultiplier: 3.5,
+      touchMultiplier: 3.5,
       wheelMultiplier: 1.5,
       gestureOrientation: 'vertical',
     })
