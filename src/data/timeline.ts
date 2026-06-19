@@ -39,7 +39,7 @@ export const timelineEntries: TimelineEntry[] = [
   {
     date: "February 2026",
     title: "Random moment",
-    caption: "I wonder when you got pregnant 😂",
+    caption: "I wonder what got you pregnant 😂",
     image:
       "https://res.cloudinary.com/dfkvi62ql/image/upload/v1781890444/20260207_113211_httug9.jpg",
   },
