@@ -15,7 +15,12 @@ gsap.registerPlugin(ScrollTrigger)
 
 export default function App() {
   useEffect(() => {
-    const lenis = new Lenis({ lerp: 0.08 })
+    const lenis = new Lenis({
+      lerp: 0.08,
+      touchInertiaMultiplier: 3.5,
+      wheelMultiplier: 1.5,
+      gestureOrientation: 'vertical',
+    })
     lenis.on('scroll', ScrollTrigger.update)
     gsap.ticker.add((time) => lenis.raf(time * 1000))
     gsap.ticker.lagSmoothing(0)

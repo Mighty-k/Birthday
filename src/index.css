@@ -22,6 +22,7 @@
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
+  touch-action: pan-y pinch-zoom;
 }
 
 body {
